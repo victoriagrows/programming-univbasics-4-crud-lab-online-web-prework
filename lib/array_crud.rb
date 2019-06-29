@@ -28,11 +28,11 @@ def retrieve_element_from_index(create_an_array, second = 1)
 end
 
 def retrieve_first_element_from_array(create_an_array, first = 0)
-  
+  create_an_array[first]
 end
 
 def retrieve_last_element_from_array(create_an_array, last = -1)
-  
+  create_an_array[last]
 end
 
 def update_element_from_index(array, index, element)
