@@ -34,6 +34,6 @@ def retrieve_last_element_from_array(create_an_array, last = -1)
   
 end
 
-def update_element_from_index(create_an_array, 4, "totally")
+def update_element_from_index(array, index, element)
 
 end
