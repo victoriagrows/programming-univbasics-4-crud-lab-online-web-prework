@@ -4,6 +4,7 @@ end
 
 def create_an_array
   Array.new(4)
+  create_an_array = ["wow", "I", "am", "really", "learning"]
 end
 
 def add_element_to_end_of_array(create_an_array)
