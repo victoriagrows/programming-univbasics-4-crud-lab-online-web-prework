@@ -11,7 +11,7 @@ def add_element_to_end_of_array(create_an_array, color = "yellow")
 end
 
 def add_element_to_start_of_array(create_an_array, color_two = "black")
-  create_an_array.unshift 
+  create_an_array.unshift(color_two)
 end
 
 def remove_element_from_end_of_array(array)
