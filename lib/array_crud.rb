@@ -35,5 +35,5 @@ def retrieve_last_element_from_array(create_an_array, last = -1)
 end
 
 def update_element_from_index(create_an_array, first, element)
-  create_an_array.insert
+  create_an_array.insert(first,)
 end
