@@ -4,15 +4,15 @@ end
 
 def create_an_array
   #Array.new(4)
-  create_an_array = ["wow", "I", "am", "really"]
+  create_an_array = ["I", "am", "really", "learning"]
 end
 
-def add_element_to_end_of_array(create_an_array, four = "learning")
+def add_element_to_end_of_array(create_an_array, four = "arrays!")
   create_an_array << four
 end
 
-def add_element_to_start_of_array(create_an_array, )
-  #create_an_array.unshift("arrays!")
+def add_element_to_start_of_array(create_an_array, first = "wow")
+  create_an_array.unshift(first)
 end
 
 def remove_element_from_end_of_array(create_an_array)
