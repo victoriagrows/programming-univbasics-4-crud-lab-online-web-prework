@@ -22,8 +22,8 @@ def remove_element_from_start_of_array(create_an_array)
   create_an_array.shift
 end
 
-def retrieve_element_from_index(create_an_array, 0)
-  create_an_array[]
+def retrieve_element_from_index(create_an_array, first = 0)
+  create_an_array[first]
 end
 
 def retrieve_first_element_from_array(array)
