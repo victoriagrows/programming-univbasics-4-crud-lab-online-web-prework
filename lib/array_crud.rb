@@ -8,7 +8,7 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(create_an_array)
-  create_an_array.push("learning")
+  create_an_array << "learning"
 end
 
 def add_element_to_start_of_array(create_an_array)
