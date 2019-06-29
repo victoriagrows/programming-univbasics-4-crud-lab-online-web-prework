@@ -8,11 +8,11 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(create_an_array)
-  create_an_array = ["wow", "I", "am", "really", "learning"]
+  create_an_array.push("arrays!")
 end
 
 def add_element_to_start_of_array(create_an_array)
-  create_an_array.push("arrays!")
+  create_an_array.unshift("arrays!")
 end
 
 def remove_element_from_end_of_array(create_an_array)
